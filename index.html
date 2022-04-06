@@ -1,1 +1,78 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="resources/icon1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="resources/icon1.ico" type="image/x-icon">
+    <link media="(min-width: 920px)" rel="stylesheet" href="css/style.css" type="text/css">
+    <link media="(max-width: 920px)" rel="stylesheet" href="css/style_mobile.css" type="text/css">
+    <script src="scripts/functions.js"></script>
+
+    <title>AboutMe</title>
+</head>
+
+
+<body>
+    <div class="LeftNav cf">
+        <div class="InfoBox">
+            <div class="Avatar">
+                <a href="index.html"><img src="resources/avatar1.png" alt="Avatar"></a>
+                <div class="Intro">
+                    <a href="#">TianSen</a>
+                </div>
+                <div class="Contact">
+                    <a href="#">LingDar77@outlook.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="NavBox">
+            <div class="Navigation cf ">
+                <div class="Block fl"></div>
+                <span class="text fl">Navigation</span>
+            </div>
+            <ul>
+                <li class="ListItem"><a class="hover" href="intro.html" target="ContentFrame">·HomePage</a></li>
+                <li class="ListItem"><a href="pictures.html" target="ContentFrame">·Pictures</a></li>
+                <li class="ListItem"><a href="video.html" target="ContentFrame">·Videos</a></li>
+            </ul>
+        </div>
+        <div class="MusicPlayer cf">
+            <div class="Block fl"></div>
+            <span class="text fl">MusicPlayer</span>
+            <div class="MusicPlayrConatiner fl">
+                <!-- <div class="Eye fl"></div>
+                <div class="Eye fr"></div> -->
+                <div class="SpinningRecordContainer">
+                    <div class="SpanningRecord">
+                        <img src="resources/record.png">
+                    </div>
+                </div>
+                <p class="MusicInfo">MusicInfo</p>
+                <div class="PlayerControalPanel cf">
+                    <div class="VolunmeModifier"></div>
+                    <div class="Pause"></div>
+                    <div class="PreviousSong fl"></div>
+                    <div class="NextSong fr"></div>
+                    <audio id="Music" muted="true">
+                        <source src="musics/水樹奈々 - 深愛.mp3" type="audio/mpeg" >
+                        您的浏览器不支持 audio 元素。
+                      </audio>
+                </div>
+            </div>
+        </div>
+        <div class="FeedMe cf">
+            <div class="Block fl"></div>
+            <span class="fl"><a href="#">养我👍</a></span>
+        </div>
+    </div>
+    <div class="FrameContainer">
+        <!-- <iframe class="Content cf" name="ContentFrame" src="intro.html" frameborder="0"></iframe> -->
+    </div>
+    </div>
+</body>
+
+</html>

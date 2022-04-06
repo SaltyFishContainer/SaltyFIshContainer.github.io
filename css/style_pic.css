@@ -1,0 +1,21 @@
+* {
+    margin: 0px 0px;
+    transition: all 100ms;
+    position: relative;
+}
+
+.Content {
+    margin: 0vh 2.2vh;
+    padding-top: 10vh;
+}
+
+.Content img {
+    display: block;
+    float: left;
+    margin: 1vh 1vh;
+    max-width: 21.5vw;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .1);
+}

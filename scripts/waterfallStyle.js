@@ -55,7 +55,7 @@
                 }
                 //console.log(heights);
 
-            }, 50)
+            }, 100)
     }
 
     function OpenPic() {
